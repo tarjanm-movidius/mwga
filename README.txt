@@ -25,3 +25,10 @@ Copy git bash binaries:
 winhlp32:
 - download w8.1 winhlp32.exe and copy to path (C:\xbin)
 - search registry for winhlp32 and alter as needed
+
+
+*** netcat, nmap
+
+nmap!
+
+
