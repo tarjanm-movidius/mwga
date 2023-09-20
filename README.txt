@@ -32,3 +32,7 @@ winhlp32:
 nmap!
 
 
+*** To disable compattelrunner.exe, just execute:
+Task Scheduler  - Microsoft - Windows - Application Experience - right click on each task for: DISABLE
+Add killstuff.bat there. Daily, then edit trigger and check repeat every 5min
+Modify it and save after every password change, it won't run otherwise
