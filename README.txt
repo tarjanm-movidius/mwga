@@ -33,6 +33,38 @@ nmap!
 
 
 *** To disable compattelrunner.exe, just execute:
+
 Task Scheduler  - Microsoft - Windows - Application Experience - right click on each task for: DISABLE
-Add killstuff.bat there. Daily, then edit trigger and check repeat every 5min
-Modify it and save after every password change, it won't run otherwise
+
+
+### Puto Windows 11 ###
+
+
+*** MS Teams
+
+- Disable animations
+- Disable GPU hardware acceleration, because - that's right kids - it hogs the CPU
+
+
+*** TextInputHost, thanks for the keylogger but no thanks
+
+https://forum.skystar-2.com/disable-microsoft-text-input-app
+
+
+*** Disable puto services in registry
+
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DoSvc
+key Start -> 4
+
+
+*** Auto level control on the headphone output,
+
+...that makes music sound like what you recorded off the TV with your cassette recorder's microphone in 1993
+Device Manager -> Sound and whatnot -> Realtek Audio -> Update Driver -> Select manually off HDD -> Microsoft -> High Definition Audio (generic, whichever is the least outdated)
+Task Manager -> Startup -> disable Realtek everything, then pray to Bill Gates that maybe after the NEXT reboot you won't have to do it all over AGAIN
+
+
+*** Controlling unwanted apps and services
+
+This only works as a continuously running service, task scheduler every 5min (and then running in like 5 instances after a few days) doesn't cut it.
+After bootup, start cmd.exe as admin, run killemall.bat. It starts killemall.sh that reads kill.lst and checks every 5 seconds for tasks in it to kill.
