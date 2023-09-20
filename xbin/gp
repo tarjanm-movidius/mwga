@@ -1,0 +1,19 @@
+#!/bin/bash
+
+cond_checkout() {
+
+	[ $# -lt 2 ] && echo "cond_checkout(): parameter missing" && return 1
+	FN="$1"
+	shift
+	if [ -e "$FN" ]; then
+		echo "# $@"
+		$@
+		RETVAL=$?
+		[ $RETVAL -ne 0 ] && echo "Error $RETVAL" && exit $RETVAL
+	fi
+}
+
+cond_checkout .git        git pull
+cond_checkout .gitmodules git submodule update --recursive
+cond_checkout .lfsconfig  git lfs pull
+cond_checkout .gitfat     git fat pull

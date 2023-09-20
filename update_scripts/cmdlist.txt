@@ -1,0 +1,1068 @@
+c:\xbin>cmdlist.bat
+
+c:\xbin>arch
+'arch' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>awk
+'awk' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>b2sum
+'b2sum' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>base32
+'base32' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>base64
+'base64' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>basename
+'basename' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>basenc
+'basenc' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>bash
+'bash' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>bunzip2
+'bunzip2' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>bzcat
+'bzcat' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>bzip2
+'bzip2' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>bzip2recover
+'bzip2recover' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>captoinfo
+'captoinfo' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>cat
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>chattr
+'chattr' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>chcon
+'chcon' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>chgrp
+'chgrp' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>chmod
+'chmod' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>chown
+'chown' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>chroot
+'chroot' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>cksum
+'cksum' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>cmp
+'cmp' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>column
+'column' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>comm
+'comm' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>cp
+'cp' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>csplit
+'csplit' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>cut
+'cut' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>cygcheck
+'cygcheck' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>cygpath
+'cygpath' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>cygwin-console-helper
+'cygwin-console-helper' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>d2u
+'d2u' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>dash
+'dash' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>date
+The current date is: 20/09/2023
+Enter the new date: (dd-mm-yy)
+
+c:\xbin>dd
+'dd' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>df
+'df' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>diff
+'diff' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>diff3
+'diff3' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>dir
+ Volume in drive C is OSDisk
+ Volume Serial Number is C690-5405
+
+ Directory of c:\xbin
+
+20/09/2023  20:11    <DIR>          .
+20/09/2023  20:08             1,900 cmdcpy.bat
+20/09/2023  20:12             2,081 cmdlist.bat
+20/09/2023  19:17               619 cmdlist_mingw64.bat
+20/09/2023  19:22            13,103 cmdlist_mingw64.txt
+02/12/2022  10:38               484 gp.bat
+20/09/2023  09:38             1,221 kill.lst
+14/09/2023  11:29               174 killemall.bat
+14/09/2023  15:36             1,585 killemall.sh
+14/06/2023  10:51               112 killtextinputhost.bat
+16/08/2022  17:32             4,493 lcc_help.txt
+30/03/2022  13:20            27,340 UsbTreeView.txt
+25/03/2005  23:00           285,696 winhlp32.exe
+              12 File(s)        338,808 bytes
+               1 Dir(s)  73,864,048,640 bytes free
+
+c:\xbin>dircolors
+'dircolors' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>dirmngr-client
+'dirmngr-client' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>dirmngr
+'dirmngr' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>dirname
+'dirname' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>dos2unix
+'dos2unix' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>du
+'du' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>dumpsexp
+'dumpsexp' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>echo
+ECHO is on.
+
+c:\xbin>env
+'env' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>envsubst
+'envsubst' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ex
+'ex' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>expand
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+No files specified.
+
+c:\xbin>expr
+'expr' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>factor
+'factor' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>false
+'false' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>file
+C:\Program Files (x86)\Midnight Commander\file.exe: could not find any valid magic files! (No such file or directory)
+
+c:\xbin>find
+FIND: Parameter format not correct
+
+c:\xbin>fmt
+'fmt' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>fold
+'fold' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>funzip
+'funzip' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gawk-5.0.0
+'gawk-5.0.0' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gawk
+'gawk' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gencat
+'gencat' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>getconf
+'getconf' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>getfacl
+'getfacl' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>getopt
+'getopt' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gettext
+'gettext' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gkill
+'gkill' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gmondump
+'gmondump' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpg-agent
+'gpg-agent' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpg-connect-agent
+'gpg-connect-agent' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpg-error
+'gpg-error' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpg-wks-server
+'gpg-wks-server' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpg
+'gpg' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpgconf
+'gpgconf' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpgparsemail
+'gpgparsemail' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpgscm
+'gpgscm' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpgsm
+'gpgsm' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpgsplit
+'gpgsplit' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpgtar
+'gpgtar' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gpgv
+'gpgv' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>grep
+'grep' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>groups
+'groups' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>gzip
+'gzip' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>head
+'head' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>hmac256
+'hmac256' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>hostid
+'hostid' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>hostname
+mtarjan-mobl2
+
+c:\xbin>iconv
+'iconv' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>id
+'id' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>infocmp
+'infocmp' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>infotocap
+'infotocap' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>install
+'install' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>join
+'join' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>kbxutil
+'kbxutil' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>kill
+'kill' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ldd
+'ldd' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ldh
+'ldh' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>less
+'less' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>lessecho
+'lessecho' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>lesskey
+'lesskey' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>link
+'link' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ln
+'ln' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>locale
+'locale' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>locate
+'locate' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>logname
+'logname' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>lsattr
+'lsattr' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>mac2unix
+'mac2unix' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>md5sum
+'md5sum' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>minidumper
+'minidumper' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>mintty
+'mintty' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>mkdir
+The syntax of the command is incorrect.
+
+c:\xbin>mkfifo
+'mkfifo' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>mkgroup
+'mkgroup' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>mknod
+'mknod' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>mkpasswd
+'mkpasswd' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>mktemp
+'mktemp' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>mount
+'mount' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>mpicalc
+'mpicalc' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgattrib
+'msgattrib' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgcat
+'msgcat' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgcmp
+'msgcmp' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgcomm
+'msgcomm' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgconv
+'msgconv' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgen
+'msgen' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgexec
+'msgexec' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgfilter
+'msgfilter' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgfmt
+'msgfmt' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msggrep
+'msggrep' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msginit
+'msginit' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgmerge
+'msgmerge' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msgunfmt
+'msgunfmt' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>msguniq
+'msguniq' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>mv
+'mv' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>nano
+'nano' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>nettle-hash
+'nettle-hash' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>nettle-lfib-stream
+'nettle-lfib-stream' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>nettle-pbkdf2
+'nettle-pbkdf2' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ngettext
+'ngettext' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>nice
+'nice' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>nl
+'nl' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>nohup
+'nohup' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>nproc
+'nproc' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>numfmt
+'numfmt' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>od
+'od' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>openssl
+'openssl' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>p11-kit
+'p11-kit' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>passwd
+'passwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>paste
+'paste' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>patch
+'patch' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>pathchk
+'pathchk' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>perl
+'perl' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>perl5.36.1
+'perl5.36.1' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>pinentry-w32
+'pinentry-w32' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>pinentry
+'pinentry' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>pinky
+'pinky' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>pkcs1-conv
+'pkcs1-conv' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>pldd
+'pldd' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>pluginviewer
+'pluginviewer' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>pr
+'pr' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>printenv
+'printenv' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>printf
+'printf' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>profiler
+'profiler' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ps
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>psl
+'psl' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ptx
+'ptx' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>readlink
+'readlink' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>realpath
+'realpath' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>rebase
+'rebase' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>recode-sr-latin
+'recode-sr-latin' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>regtool
+'regtool' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>reset
+Invalid parameter(s)
+RESET { SESSION }
+
+c:\xbin>rm
+'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>rmdir
+The syntax of the command is incorrect.
+
+c:\xbin>rnano
+'rnano' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>runcon
+'runcon' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>rview
+'rview' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>rvim
+'rvim' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>scp
+usage: scp [-346BCpqrTv] [-c cipher] [-F ssh_config] [-i identity_file]
+            [-J destination] [-l limit] [-o ssh_option] [-P port]
+            [-S program] source ... target
+
+c:\xbin>sdiff
+'sdiff' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sed
+'sed' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>seq
+'seq' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>setfacl
+'setfacl' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>setmetamode
+'setmetamode' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sexp-conv
+'sexp-conv' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sftp
+usage: sftp [-46aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file]
+          [-J destination] [-l limit] [-o ssh_option] [-P port]
+          [-R num_requests] [-S program] [-s subsystem | sftp_server]
+          destination
+
+c:\xbin>sh
+'sh' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sha1sum
+'sha1sum' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sha224sum
+'sha224sum' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sha256sum
+'sha256sum' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sha384sum
+'sha384sum' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sha512sum
+'sha512sum' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>shred
+'shred' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>shuf
+'shuf' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sleep
+'sleep' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sort
+
+
+^CTerminate batch job (Y/N)? n
+
+c:\xbin>split
+'split' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ssh-add
+Error connecting to agent: No such file or directory
+
+c:\xbin>ssh-agent
+
+c:\xbin>ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\mtarjan/.ssh/id_rsa): Terminate batch job (Y/N)? n
+
+c:\xbin>ssh-keyscan
+usage: ssh-keyscan [-46cDHv] [-f file] [-p port] [-T timeout] [-t type]
+                   [host | addrlist namelist]
+
+c:\xbin>ssh-pageant
+'ssh-pageant' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command]
+
+c:\xbin>sshd
+'sshd' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>ssp
+'ssp' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>stat
+'stat' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>stdbuf
+'stdbuf' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>strace
+'strace' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>stty
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sum
+'sum' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>sync
+'sync' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tabs
+'tabs' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tac
+'tac' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tail
+'tail' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tar
+tar: Must specify one of -c, -r, -t, -u, -x
+
+c:\xbin>tee
+'tee' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>test
+'test' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tic
+'tic' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tig
+'tig' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>timeout
+ERROR: Invalid syntax.
+Type "TIMEOUT /?" for usage.
+
+c:\xbin>toe
+'toe' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>touch
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tput
+'tput' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tr
+'tr' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>true
+'true' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>truncate
+'truncate' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>trust
+'trust' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tset
+'tset' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tsort
+'tsort' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tty
+'tty' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>tzset
+'tzset' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>u2d
+'u2d' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>umount
+'umount' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>uname
+'uname' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>unexpand
+'unexpand' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>uniq
+'uniq' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>unix2dos
+'unix2dos' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>unix2mac
+'unix2mac' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>unlink
+'unlink' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>unzip
+'unzip' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>unzipsfx
+'unzipsfx' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>users
+'users' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>vdir
+'vdir' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>view
+'view' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>vim
+'vim' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>vimdiff
+'vimdiff' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>watchgnupg
+'watchgnupg' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>wc
+'wc' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>which
+'which' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>who
+'who' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>whoami
+ger\mtarjan
+
+c:\xbin>winpty-agent
+'winpty-agent' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>winpty-debugserver
+'winpty-debugserver' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>winpty
+'winpty' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>xargs
+'xargs' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>xgettext
+'xgettext' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>xxd
+'xxd' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>yat2m
+'yat2m' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>yes
+'yes' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>zipinfo
+'zipinfo' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\xbin>[
+'[' is not recognized as an internal or external command,
+operable program or batch file.

@@ -1,0 +1,378 @@
+
+C:\Program Files\Git\mingw64\bin\edit.dll
+C:\Program Files\Git\mingw64\bin\libcares-2.dll
+C:\Program Files\Git\mingw64\bin\libexpat-1.dll
+C:\Program Files\Git\mingw64\bin\libgcc_s_seh-1.dll
+C:\Program Files\Git\mingw64\bin\libiconv-2.dll
+C:\Program Files\Git\mingw64\bin\libintl-8.dll
+C:\Program Files\Git\mingw64\bin\liblzma-5.dll
+C:\Program Files\Git\mingw64\bin\libpcre-1.dll
+C:\Program Files\Git\mingw64\bin\libpcreposix-0.dll
+C:\Program Files\Git\mingw64\bin\libstdc++-6.dll
+C:\Program Files\Git\mingw64\bin\libtre-5.dll
+C:\Program Files\Git\mingw64\bin\libwinpthread-1.dll
+C:\Program Files\Git\mingw64\bin\tcl86.dll
+C:\Program Files\Git\mingw64\bin\tk86.dll
+C:\Program Files\Git\mingw64\bin\zlib1.dll
+C:\Program Files\Git\usr\bin\msys-2.0.dll
+C:\Program Files\Git\usr\bin\msys-asn1-8.dll
+C:\Program Files\Git\usr\bin\msys-assuan-0.dll
+C:\Program Files\Git\usr\bin\msys-bz2-1.dll
+C:\Program Files\Git\usr\bin\msys-com_err-1.dll
+C:\Program Files\Git\usr\bin\msys-crypt-0.dll
+C:\Program Files\Git\usr\bin\msys-crypt-2.dll
+C:\Program Files\Git\usr\bin\msys-crypto-3.dll
+C:\Program Files\Git\usr\bin\msys-edit-0.dll
+C:\Program Files\Git\usr\bin\msys-ffi-8.dll
+C:\Program Files\Git\usr\bin\msys-gcc_s-seh-1.dll
+C:\Program Files\Git\usr\bin\msys-gcrypt-20.dll
+C:\Program Files\Git\usr\bin\msys-gettextlib-0-22.dll
+C:\Program Files\Git\usr\bin\msys-gettextsrc-0-22.dll
+C:\Program Files\Git\usr\bin\msys-gmp-10.dll
+C:\Program Files\Git\usr\bin\msys-gnutls-30.dll
+C:\Program Files\Git\usr\bin\msys-gpg-error-0.dll
+C:\Program Files\Git\usr\bin\msys-gssapi-3.dll
+C:\Program Files\Git\usr\bin\msys-hcrypto-4.dll
+C:\Program Files\Git\usr\bin\msys-heimbase-1.dll
+C:\Program Files\Git\usr\bin\msys-heimntlm-0.dll
+C:\Program Files\Git\usr\bin\msys-hogweed-6.dll
+C:\Program Files\Git\usr\bin\msys-hx509-5.dll
+C:\Program Files\Git\usr\bin\msys-iconv-2.dll
+C:\Program Files\Git\usr\bin\msys-idn2-0.dll
+C:\Program Files\Git\usr\bin\msys-intl-8.dll
+C:\Program Files\Git\usr\bin\msys-kafs-0.dll
+C:\Program Files\Git\usr\bin\msys-krb5-26.dll
+C:\Program Files\Git\usr\bin\msys-ksba-8.dll
+C:\Program Files\Git\usr\bin\msys-lzma-5.dll
+C:\Program Files\Git\usr\bin\msys-magic-1.dll
+C:\Program Files\Git\usr\bin\msys-mpfr-6.dll
+C:\Program Files\Git\usr\bin\msys-ncursesw6.dll
+C:\Program Files\Git\usr\bin\msys-nettle-8.dll
+C:\Program Files\Git\usr\bin\msys-npth-0.dll
+C:\Program Files\Git\usr\bin\msys-p11-kit-0.dll
+C:\Program Files\Git\usr\bin\msys-pcre-1.dll
+C:\Program Files\Git\usr\bin\msys-pcre2-8-0.dll
+C:\Program Files\Git\usr\bin\msys-pcre2-posix-3.dll
+C:\Program Files\Git\usr\bin\msys-perl5_36.dll
+C:\Program Files\Git\usr\bin\msys-psl-5.dll
+C:\Program Files\Git\usr\bin\msys-readline8.dll
+C:\Program Files\Git\usr\bin\msys-roken-18.dll
+C:\Program Files\Git\usr\bin\msys-sasl2-3.dll
+C:\Program Files\Git\usr\bin\msys-smartcols-1.dll
+C:\Program Files\Git\usr\bin\msys-sqlite3-0.dll
+C:\Program Files\Git\usr\bin\msys-ssl-3.dll
+C:\Program Files\Git\usr\bin\msys-tasn1-6.dll
+C:\Program Files\Git\usr\bin\msys-ticw6.dll
+C:\Program Files\Git\usr\bin\msys-unistring-5.dll
+C:\Program Files\Git\usr\bin\msys-wind-0.dll
+C:\Program Files\Git\usr\bin\msys-z.dll
+C:\Program Files\Git\usr\bin\msys-zstd-1.dll
+C:\Program Files\Git\usr\bin\winpty.dll
+C:\WINDOWS\system32\ADVAPI32.dll
+C:\WINDOWS\system32\COMCTL32.dll
+C:\WINDOWS\system32\GDI32.dll
+C:\WINDOWS\system32\IMM32.dll
+C:\WINDOWS\system32\IPHLPAPI.DLL
+C:\WINDOWS\system32\KERNEL32.dll
+C:\WINDOWS\system32\KERNELBASE.dll
+C:\WINDOWS\system32\MPR.dll
+C:\WINDOWS\system32\NETAPI32.dll
+C:\WINDOWS\system32\OLEAUT32.dll
+C:\WINDOWS\system32\PSAPI.DLL
+C:\WINDOWS\system32\RPCRT4.dll
+C:\WINDOWS\system32\SECHOST.dll
+C:\WINDOWS\system32\SHELL32.dll
+C:\WINDOWS\system32\SHLWAPI.dll
+C:\WINDOWS\system32\USER32.dll
+C:\WINDOWS\system32\USERENV.dll
+C:\WINDOWS\system32\USP10.dll
+C:\WINDOWS\system32\WINHTTP.dll
+C:\WINDOWS\system32\WININET.dll
+C:\WINDOWS\system32\WINMM.dll
+C:\WINDOWS\system32\WINSPOOL.DRV
+C:\WINDOWS\system32\WS2_32.dll
+C:\WINDOWS\system32\combase.dll
+C:\WINDOWS\system32\comdlg32.dll
+C:\WINDOWS\system32\dbghelp.dll
+C:\WINDOWS\system32\gdiplus.dll
+C:\WINDOWS\system32\msvcp_win.dll
+C:\WINDOWS\system32\msvcrt.dll
+C:\WINDOWS\system32\ntdll.dll
+C:\WINDOWS\system32\ole32.dll
+C:\WINDOWS\system32\win32u.dll
+C:\xbin\WhoUses.exe
+C:\xbin\[.exe
+C:\xbin\acountry.exe
+C:\xbin\adig.exe
+C:\xbin\ahost.exe
+C:\xbin\antiword.exe
+C:\xbin\arch.exe
+C:\xbin\awk.exe
+C:\xbin\b2sum.exe
+C:\xbin\base32.exe
+C:\xbin\base64.exe
+C:\xbin\basename.exe
+C:\xbin\basenc.exe
+C:\xbin\bash.exe
+C:\xbin\blocked-file-util.exe
+C:\xbin\brotli.exe
+C:\xbin\bunzip2.exe
+C:\xbin\bzcat.exe
+C:\xbin\bzip2.exe
+C:\xbin\bzip2recover.exe
+C:\xbin\captoinfo.exe
+C:\xbin\cat.exe
+C:\xbin\chattr.exe
+C:\xbin\chcon.exe
+C:\xbin\chgrp.exe
+C:\xbin\chmod.exe
+C:\xbin\chown.exe
+C:\xbin\chroot.exe
+C:\xbin\cksum.exe
+C:\xbin\clear.exe
+C:\xbin\cmp.exe
+C:\xbin\column.exe
+C:\xbin\comm.exe
+C:\xbin\connect.exe
+C:\xbin\cp.exe
+C:\xbin\create-shortcut.exe
+C:\xbin\csplit.exe
+C:\xbin\cut.exe
+C:\xbin\cygcheck.exe
+C:\xbin\cygpath.exe
+C:\xbin\cygwin-console-helper.exe
+C:\xbin\d2u.exe
+C:\xbin\dash.exe
+C:\xbin\dd.exe
+C:\xbin\df.exe
+C:\xbin\diff.exe
+C:\xbin\diff3.exe
+C:\xbin\dircolors.exe
+C:\xbin\dirmngr-client.exe
+C:\xbin\dirmngr.exe
+C:\xbin\dirname.exe
+C:\xbin\dos2unix.exe
+C:\xbin\du.exe
+C:\xbin\dumpsexp.exe
+C:\xbin\edit_test.exe
+C:\xbin\edit_test_dll.exe
+C:\xbin\env.exe
+C:\xbin\envsubst.exe
+C:\xbin\ex.exe
+C:\xbin\expr.exe
+C:\xbin\factor.exe
+C:\xbin\false.exe
+C:\xbin\file.exe
+C:\xbin\fmt.exe
+C:\xbin\fold.exe
+C:\xbin\funzip.exe
+C:\xbin\gawk-5.0.0.exe
+C:\xbin\gawk.exe
+C:\xbin\gencat.exe
+C:\xbin\getconf.exe
+C:\xbin\getfacl.exe
+C:\xbin\getopt.exe
+C:\xbin\gettext.exe
+C:\xbin\gkill.exe
+C:\xbin\gmondump.exe
+C:\xbin\gpg-agent.exe
+C:\xbin\gpg-connect-agent.exe
+C:\xbin\gpg-error.exe
+C:\xbin\gpg-wks-server.exe
+C:\xbin\gpg.exe
+C:\xbin\gpgconf.exe
+C:\xbin\gpgparsemail.exe
+C:\xbin\gpgscm.exe
+C:\xbin\gpgsm.exe
+C:\xbin\gpgsplit.exe
+C:\xbin\gpgtar.exe
+C:\xbin\gpgv.exe
+C:\xbin\grep.exe
+C:\xbin\groups.exe
+C:\xbin\gzip.exe
+C:\xbin\head.exe
+C:\xbin\hmac256.exe
+C:\xbin\hostid.exe
+C:\xbin\iconv.exe
+C:\xbin\id.exe
+C:\xbin\infocmp.exe
+C:\xbin\infotocap.exe
+C:\xbin\install.exe
+C:\xbin\join.exe
+C:\xbin\kbxutil.exe
+C:\xbin\kill.exe
+C:\xbin\ldd.exe
+C:\xbin\ldh.exe
+C:\xbin\less.exe
+C:\xbin\lessecho.exe
+C:\xbin\lesskey.exe
+C:\xbin\link.exe
+C:\xbin\ln.exe
+C:\xbin\locale.exe
+C:\xbin\locate.exe
+C:\xbin\logname.exe
+C:\xbin\ls.exe
+C:\xbin\lsattr.exe
+C:\xbin\lzmadec.exe
+C:\xbin\lzmainfo.exe
+C:\xbin\mac2unix.exe
+C:\xbin\md5sum.exe
+C:\xbin\minidumper.exe
+C:\xbin\mintty.exe
+C:\xbin\mkfifo.exe
+C:\xbin\mkgroup.exe
+C:\xbin\mknod.exe
+C:\xbin\mkpasswd.exe
+C:\xbin\mktemp.exe
+C:\xbin\mount.exe
+C:\xbin\mpicalc.exe
+C:\xbin\msgattrib.exe
+C:\xbin\msgcat.exe
+C:\xbin\msgcmp.exe
+C:\xbin\msgcomm.exe
+C:\xbin\msgconv.exe
+C:\xbin\msgen.exe
+C:\xbin\msgexec.exe
+C:\xbin\msgfilter.exe
+C:\xbin\msgfmt.exe
+C:\xbin\msggrep.exe
+C:\xbin\msginit.exe
+C:\xbin\msgmerge.exe
+C:\xbin\msgunfmt.exe
+C:\xbin\msguniq.exe
+C:\xbin\mv.exe
+C:\xbin\nano.exe
+C:\xbin\nettle-hash.exe
+C:\xbin\nettle-lfib-stream.exe
+C:\xbin\nettle-pbkdf2.exe
+C:\xbin\ngettext.exe
+C:\xbin\nice.exe
+C:\xbin\nl.exe
+C:\xbin\nohup.exe
+C:\xbin\nproc.exe
+C:\xbin\numfmt.exe
+C:\xbin\od.exe
+C:\xbin\odt2txt.exe
+C:\xbin\openssl.exe
+C:\xbin\p11-kit.exe
+C:\xbin\passwd.exe
+C:\xbin\paste.exe
+C:\xbin\patch.exe
+C:\xbin\pathchk.exe
+C:\xbin\pdftotext.exe
+C:\xbin\perl.exe
+C:\xbin\perl5.36.1.exe
+C:\xbin\pinentry-w32.exe
+C:\xbin\pinentry.exe
+C:\xbin\pinky.exe
+C:\xbin\pkcs1-conv.exe
+C:\xbin\pldd.exe
+C:\xbin\pluginviewer.exe
+C:\xbin\pr.exe
+C:\xbin\printenv.exe
+C:\xbin\printf.exe
+C:\xbin\profiler.exe
+C:\xbin\proxy-lookup.exe
+C:\xbin\ps.exe
+C:\xbin\psl.exe
+C:\xbin\ptx.exe
+C:\xbin\pwd.exe
+C:\xbin\readlink.exe
+C:\xbin\realpath.exe
+C:\xbin\rebase.exe
+C:\xbin\recode-sr-latin.exe
+C:\xbin\regtool.exe
+C:\xbin\rm.exe
+C:\xbin\rnano.exe
+C:\xbin\runcon.exe
+C:\xbin\rview.exe
+C:\xbin\rvim.exe
+C:\xbin\sdiff.exe
+C:\xbin\sed.exe
+C:\xbin\seq.exe
+C:\xbin\setfacl.exe
+C:\xbin\setmetamode.exe
+C:\xbin\sexp-conv.exe
+C:\xbin\sh.exe
+C:\xbin\sha1sum.exe
+C:\xbin\sha224sum.exe
+C:\xbin\sha256sum.exe
+C:\xbin\sha384sum.exe
+C:\xbin\sha512sum.exe
+C:\xbin\shred.exe
+C:\xbin\shuf.exe
+C:\xbin\sleep.exe
+C:\xbin\split.exe
+C:\xbin\ssh-pageant.exe
+C:\xbin\sshd.exe
+C:\xbin\ssp.exe
+C:\xbin\stat.exe
+C:\xbin\stdbuf.exe
+C:\xbin\strace.exe
+C:\xbin\stty.exe
+C:\xbin\sum.exe
+C:\xbin\sync.exe
+C:\xbin\tabs.exe
+C:\xbin\tac.exe
+C:\xbin\tail.exe
+C:\xbin\tclsh.exe
+C:\xbin\tclsh86.exe
+C:\xbin\tee.exe
+C:\xbin\test.exe
+C:\xbin\tic.exe
+C:\xbin\tig.exe
+C:\xbin\toe.exe
+C:\xbin\touch.exe
+C:\xbin\tput.exe
+C:\xbin\tr.exe
+C:\xbin\true.exe
+C:\xbin\truncate.exe
+C:\xbin\trust.exe
+C:\xbin\tset.exe
+C:\xbin\tsort.exe
+C:\xbin\tty.exe
+C:\xbin\tzset.exe
+C:\xbin\u2d.exe
+C:\xbin\umount.exe
+C:\xbin\uname.exe
+C:\xbin\unexpand.exe
+C:\xbin\uniq.exe
+C:\xbin\unix2dos.exe
+C:\xbin\unix2mac.exe
+C:\xbin\unlink.exe
+C:\xbin\unxz.exe
+C:\xbin\unzip.exe
+C:\xbin\unzipsfx.exe
+C:\xbin\users.exe
+C:\xbin\vdir.exe
+C:\xbin\view.exe
+C:\xbin\vim.exe
+C:\xbin\vimdiff.exe
+C:\xbin\watchgnupg.exe
+C:\xbin\wc.exe
+C:\xbin\which.exe
+C:\xbin\who.exe
+C:\xbin\winhlp32.exe
+C:\xbin\winpty-agent.exe
+C:\xbin\winpty-debugserver.exe
+C:\xbin\winpty.exe
+C:\xbin\wintoast.exe
+C:\xbin\wish.exe
+C:\xbin\wish86.exe
+C:\xbin\x86_64-w64-mingw32-agrep.exe
+C:\xbin\xargs.exe
+C:\xbin\xfind.exe
+C:\xbin\xgettext.exe
+C:\xbin\xmlwf.exe
+C:\xbin\xscp.exe
+C:\xbin\xsftp.exe
+C:\xbin\xsort.exe
+C:\xbin\xssh.exe
+C:\xbin\xtimeout.exe
+C:\xbin\xxd.exe
+C:\xbin\xz.exe
+C:\xbin\xzcat.exe
+C:\xbin\xzdec.exe
+C:\xbin\yat2m.exe
+C:\xbin\yes.exe
+C:\xbin\zipinfo.exe
