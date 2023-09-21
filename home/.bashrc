@@ -12,6 +12,9 @@ else
 	export PATH="/Program Files/Git/usr/bin:$PATH"
 	[ -z "$HOME" ] && export HOME="/Users/$USER/"
 fi
+alias ..='cd ..'
+alias ...='cd ../..'
+
 export PATH="$PATH:/c/lcc/bin"
 # $MINGW_MOUNT_POINT c:\progra~1\git\mingw64...
 

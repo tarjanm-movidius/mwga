@@ -62,7 +62,7 @@
 #                 Updated unzip command invocations to handle path names
 #                 containing spaces.
 #    01/10/2009 - Added support for configuration file.
-#    02/10/2009 - Using single quotes to specify path for unzip command. 
+#    02/10/2009 - Using single quotes to specify path for unzip command.
 #    04/10/2009 - Corrected configuration option name lineIndent to listIndent.
 #    11/12/2011 - Configuration variables now begin with config_ .
 #                 Configuration file is looked for in HOME directory as well.
@@ -120,6 +120,8 @@ our $config_twipsPerChar = 120;		# Approx mapping for layout purpose.
 #
 # Windows/Non-Windows specific settings. Adjust these here, if needed.
 #
+
+#$config_unzip = "/xbin/unzip.exe" if (! -e $config_unzip);
 
 if ($ENV{OS} =~ /^Windows/ && !(exists $ENV{OSTYPE} || exists $ENV{HOME})) {
     $nullDevice = "nul";
@@ -299,13 +301,6 @@ if (%config) {
 }
 
 #
-# Check for unzip utility, before proceeding further.
-#
-
-die "Failed to locate unzip command '$config_unzip'!\n" if ! -f $config_unzip;
-
-
-#
 # Handle cases where this script reads docx file from STDIN.
 #
 
@@ -382,7 +377,7 @@ sub cleandie {
     unlink("$tempFile") if -e "$tempFile";
     die "$_[0]";
 }
-    
+
 
 stat($ARGV[0]);
 
@@ -390,8 +385,8 @@ if (-d _) {
     check_for_required_file_in_folder("word/document.xml", $ARGV[0]);
     check_for_required_file_in_folder("word/_rels/document.xml.rels", $ARGV[0]);
     $inpIsDir = 'y';
-}
-else {
+} else {
+    die "Failed to locate unzip command '$config_unzip'!\n" if ! -f $config_unzip;
     cleandie "Can't read docx file <$inputFileName>!\n" if ! (-f _ && -r _);
     cleandie "<$inputFileName> does not seem to be a docx file!\n" if -T _;
 }
@@ -596,7 +591,7 @@ my %bullets = (
 sub bullet {
     return $bullets{$_[0]} ? $bullets{$_[0]} : 'oo';
 }
-    
+
 my @lastCnt = (0);
 my @twipStack = (0);
 my @keyStack = (undef);
