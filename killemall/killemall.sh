@@ -1,9 +1,8 @@
 #!/bin/bash
 
 DBG=0
-PRGDIR="/c/xbin"
-#PRGDIR="`dirname $0`"
-[ -z "$PRGDIR" ] && PRGDIR="."
+[ -d "/c/xbin" ] && PRGDIR="/c/xbin" || PRGDIR="/xbin"
+[ -d "$TMP" ] || TMP="$TEMP"
 PAUSEFILE="$PRGDIR/kill.not"
 SHITLISTFILE="$PRGDIR/kill.lst"
 LCKFILE="$TMP/`basename $0`-$RANDOM"
@@ -39,8 +38,16 @@ while true; do
 	PIDLIST=`tasklist //SVC //FO CSV | grep -w "$SHITLIST"`
 	if [ -n "$PIDLIST" ]; then
 		$DBGECHO -n "$PIDLIST"
-		kill_relentless_shit "TextInputHost"
-		kill_relentless_shit "msedgewebview2"
+		# kill_relentless_shit "msedgewebview2"
+		# kill_relentless_shit "TextInputHost"
+		if grep -qi "TextInputHost.exe\|msedgewebview2.exe" <<< $PIDLIST; then
+			$DBGECHO ""
+			grep -qi "TextInputHost" <<< $PIDLIST && ( for i in `seq 1 120`; do tskill "TextInputHost" //A $DBGFLAG; done ) &
+			while tskill "msedgewebview2" //A $DBGFLAG; do
+				true
+			done
+			PIDLIST="`grep -vi "TextInputHost.exe\|msedgewebview2.exe" <<< $PIDLIST`"
+		fi
 		PIDLIST=`sed 's/^[^,]\+,\"\([^"]\+\)\".*/\1/' <<< $PIDLIST`
 		#RET=$?
 		#[ $RET -gt 0 ] && echo "ret $RET"

@@ -20,7 +20,9 @@ esrv_svc.exe
 FMService64.exe
 GameBar.exe
 GameBarFTServer.exe
+gpupdate.exe
 HelpPane.exe
+HxTsr.exe
 IntelSMAgent.exe
 it-agent.exe
 it-autoupdate-service.exe
