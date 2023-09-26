@@ -3,9 +3,7 @@
 IF [%1]==[] exit /B 1
 IF NOT EXIST %1 exit /B 2
 IF NOT DEFINED IS_MINIMIZED GOTO prep
-rem start "" "C:\Program Files\totalcmd\TOTALCMD64.EXE" /S=L "%SYMFILE%"
-rem C:\xbin\sleep 1
-"C:\Program Files\totalcmd\TOTALCMD64.EXE" /S=L "%SYMFILE%"
+"%~dp0TOTALCMD64.EXE" /S=L "%SYMFILE%"
 DEL "%SYMFILE%"
 exit
 

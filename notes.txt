@@ -24,6 +24,12 @@ winhlp32:
 nmap!
 
 
+*** Rar
+
+Winrar is free to download and tcmd can unpack files from the exe w/o installing it (Ctrl+PgDn).
+Rar.exe is sufficient in itself, (no dll needed, unrar is also just a subset of the same functions)
+
+
 *** To disable compattelrunner.exe and similar telemetry, just do:
 
 Task Scheduler - Microsoft - Windows:
