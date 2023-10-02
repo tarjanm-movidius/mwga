@@ -1,5 +1,7 @@
 @ECHO OFF
 
+title Kill 'Em All
+
 net stop SSDPSRV
 net stop PhoneSvc
 net stop InstallService
