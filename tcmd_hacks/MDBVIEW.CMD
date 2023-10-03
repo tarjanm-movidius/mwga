@@ -10,6 +10,6 @@ exit
 :prep
 set IS_MINIMIZED=1 
 set MDDFILE=%TEMP%\mdbview_%random%.txt
-C:\xbin\mdb_dump . > "%MDDFILE%"
+C:\xbin\mdb_dump -A -p . > "%MDDFILE%"
 start "" /min %~s0 "%MDDFILE%"
 exit
