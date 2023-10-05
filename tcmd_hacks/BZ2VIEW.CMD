@@ -8,8 +8,8 @@ DEL "%BZ2FILE%"
 exit
 
 :prep
-set IS_MINIMIZED=1 
-set BZ2FILE=%TEMP%\gzview_%random%.txt
+set IS_MINIMIZED=1
+set BZ2FILE=%TEMP%\bzview_%random%.txt
 set BZ2FN=%1
 set BZ2FN=%BZ2FN:"=%
 IF [%BZ2FN:~-8%]==[.tar.bz2] (

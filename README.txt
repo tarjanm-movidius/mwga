@@ -27,17 +27,24 @@ Task Scheduler -> Microsoft -> Windows:
   Device Information - right click on each task: DISABLE
 Copy files in tcmd_hacks to Total Commander install folder
 In Configuration -> Options -> Edit/View -> Associations add new extesions:
-  doc  - %COMMANDER_PATH%\DOCVIEW.CMD "%1"
-  docx - %COMMANDER_PATH%\DOCXVIEW.CMD "%1"
-  dotx - %COMMANDER_PATH%\DOCXVIEW.CMD "%1"
-  dll  - %COMMANDER_PATH%\ELFVIEW.CMD "%1"
-  elf  - %COMMANDER_PATH%\ELFVIEW.CMD "%1"
-  exe  - %COMMANDER_PATH%\ELFVIEW.CMD "%1"
-  odf  - %COMMANDER_PATH%\ODTVIEW.CMD "%1"
-  ods  - %COMMANDER_PATH%\ODTVIEW.CMD "%1"
-  odt  - %COMMANDER_PATH%\ODTVIEW.CMD "%1"
-  pdf  - %COMMANDER_PATH%\PDFVIEW.CMD "%1"
-  hlp  - C:\xbin\winhlp32.exe "%1"
+  1..9   - %COMMANDER_PATH%\MANVIEW.CMD "%1"
+  bz2    - %COMMANDER_PATH%\BZ2VIEW.CMD "%1"
+  doc    - %COMMANDER_PATH%\DOCVIEW.CMD "%1"
+  docx   - %COMMANDER_PATH%\DOCXVIEW.CMD "%1"
+  dotx   - %COMMANDER_PATH%\DOCXVIEW.CMD "%1"
+  dll    - %COMMANDER_PATH%\ELFVIEW.CMD "%1"
+  elf    - %COMMANDER_PATH%\ELFVIEW.CMD "%1"
+  exe    - %COMMANDER_PATH%\ELFVIEW.CMD "%1"
+  gz     - %COMMANDER_PATH%\GZVIEW.CMD "%1"
+  mdb    - %COMMANDER_PATH%\MDBVIEW.CMD "%1"
+  odf    - %COMMANDER_PATH%\ODTVIEW.CMD "%1"
+  ods    - %COMMANDER_PATH%\ODTVIEW.CMD "%1"
+  odt    - %COMMANDER_PATH%\ODTVIEW.CMD "%1"
+  pdf    - %COMMANDER_PATH%\PDFVIEW.CMD "%1"
+  rar    - %COMMANDER_PATH%\RARVIEW.CMD "%1"
+  sqlite - %COMMANDER_PATH%\SQLITEVIEW.CMD "%1"
+  zip    - %COMMANDER_PATH%\ZIPVIEW.CMD "%1"
+  hlp    - C:\xbin\winhlp32.exe "%1"
 
 
 Controlling unwanted apps and services

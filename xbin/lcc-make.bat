@@ -2,9 +2,9 @@
 
 set LCCROOT=C:\lcc
 
-set SRC_FILE=myprog.c
-set EXE_FILE=myprog.exe
-set LIBS=%LCCROOT%\lib64\sqlite3.lib
+set SRC_FILE=%1.c
+set EXE_FILE=%1.exe
+rem set LIBS=%LCCROOT%\lib64\sqlite3.lib
 
 set CFLAGS=-I"%LCCROOT%\include64" -O -A -unused
 set CC=%LCCROOT%\bin\lcc64.exe
