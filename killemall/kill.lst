@@ -64,7 +64,7 @@ WidgetService.exe
 WMIADAP.exe
 WmiApSrv.exe
 
-#PIconStartup.exe
+PIconStartup.exe
 #ShellExperienceHost.exe
 #SystemSettings.exe
 #SystemSettingsBroker.exe

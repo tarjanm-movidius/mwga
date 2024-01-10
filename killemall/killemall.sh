@@ -63,6 +63,7 @@ while true; do
 	else
 		net stop DoSvc 2>/dev/null
 		net stop UsoSvc 2>/dev/null
+		net stop WaaSMedicSvc 2>/dev/null
 		read -t 5
 	fi
 done
