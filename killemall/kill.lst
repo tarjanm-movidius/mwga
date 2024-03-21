@@ -25,7 +25,9 @@ HelpPane.exe
 HxTsr.exe
 IntelSMAgent.exe
 it-agent.exe
+it-agent-delegator.exe
 it-autoupdate-service.exe
+it-utility.exe
 it-servicecontroller.exe
 LockApp.exe
 Microsoft.Management.Services.IntuneWindowsAgent.exe
@@ -63,6 +65,7 @@ Widgets.exe
 WidgetService.exe
 WMIADAP.exe
 WmiApSrv.exe
+WaaSMedicAgent.exe
 
 PIconStartup.exe
 #ShellExperienceHost.exe
