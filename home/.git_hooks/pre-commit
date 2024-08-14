@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git diff --cached --name-status | while read x file; do
+	[ "$x" != "D" ] || continue
+	grep -q '\.sh$' <<< $file && echo "shell script '$file' marked 755" && git update-index --chmod=+x "$file" || true
+done || exit $?
