@@ -14,9 +14,11 @@ else
 fi
 alias ..='cd ..'
 alias ...='cd ../..'
+alias py='winpty py'
 
 export PATH="$PATH:/c/lcc/bin"
 # $MINGW_MOUNT_POINT c:\progra~1\git\mingw64...
 
 #which nev_u.exe &>/dev/null && nev_u.exe
+export TITLEPREFIX="bash "
 #cd
