@@ -7,6 +7,7 @@ ai.exe
 AppHelperCap.exe
 AppVShNotify.exe
 BESClient.exe
+BESClientRepair.exe
 BridgeCommunication.exe
 CcmExec.exe
 ClientHealthEval.exe
@@ -35,7 +36,7 @@ MicrosoftEdgeUpdate.exe
 MicrosoftSearchInBing.exe
 mofcomp.exe
 MoUsoCoreWorker.exe
-msedgewebview2.exe
+#msedgewebview2.exe
 NetworkCap.exe
 #OfficeClickToRun.exe
 omadmclient.exe
@@ -43,6 +44,8 @@ omadmprc.exe
 ONENOTEM.EXE
 PFERemediation.exe
 PhoneExperienceHost.exe
+PIconStartup.exe
+PilotshubApp.exe
 policyHost.exe
 SCNotification.exe
 SearchFilterHost.exe
@@ -61,13 +64,14 @@ uhssvc.exe
 unsecapp.exe
 Video.UI.exe
 vpncli.exe
+WaaSMedicAgent.exe
+WebExperienceHostApp.exe
 Widgets.exe
 WidgetService.exe
+WinStore.App.exe
 WMIADAP.exe
 WmiApSrv.exe
-WaaSMedicAgent.exe
 
-PIconStartup.exe
 #ShellExperienceHost.exe
 #SystemSettings.exe
 #SystemSettingsBroker.exe
@@ -78,4 +82,8 @@ PIconStartup.exe
 #TrustedInstaller.exe
 #msiexec.exe
 
-#wuauclt.exe
+wuauclt.exe
+
+CompanyPortal.exe
+ConfigurationManagerBridge.exe
+IntuneManagementExtensionBridge.exe

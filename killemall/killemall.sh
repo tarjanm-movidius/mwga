@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DBG=0
+DBG=1
 [ -d "/c/xbin" ] && PRGDIR="/c/xbin" || PRGDIR="/xbin"
 [ -d "$TMP" ] || TMP="$TEMP"
 PAUSEFILE="$PRGDIR/kill.not"
@@ -40,14 +40,23 @@ while true; do
 		$DBGECHO -n "$PIDLIST"
 		# kill_relentless_shit "msedgewebview2"
 		# kill_relentless_shit "TextInputHost"
-		if grep -qi "TextInputHost.exe\|msedgewebview2.exe" <<< $PIDLIST; then
+		# if grep -qi "TextInputHost.exe\|msedgewebview2.exe" <<< $PIDLIST; then
+			# $DBGECHO ""
+			# grep -qi "TextInputHost" <<< $PIDLIST && ( for i in `seq 1 120`; do tskill "TextInputHost" //A $DBGFLAG; done ) &
+			# while tskill "msedgewebview2" //A $DBGFLAG; do
+				# true
+			# done
+			# PIDLIST="`grep -vi "TextInputHost.exe\|msedgewebview2.exe" <<< $PIDLIST`"
+		# fi
+		if grep -qi "TextInputHost.exe" <<< $PIDLIST; then
 			$DBGECHO ""
 			grep -qi "TextInputHost" <<< $PIDLIST && ( for i in `seq 1 120`; do tskill "TextInputHost" //A $DBGFLAG; done ) &
-			while tskill "msedgewebview2" //A $DBGFLAG; do
-				true
-			done
-			PIDLIST="`grep -vi "TextInputHost.exe\|msedgewebview2.exe" <<< $PIDLIST`"
+			PIDLIST="`grep -vi "TextInputHost.exe" <<< $PIDLIST`"
 		fi
+		if grep -qi "StartAllBackCfg.exe" <<< $PIDLIST; then
+			taskkill //F //T //IM Microsoft.AAD.BrokerPlugin.exe
+		fi
+
 		PIDLIST=`sed 's/^[^,]\+,\"\([^"]\+\)\".*/\1/' <<< $PIDLIST`
 		#RET=$?
 		#[ $RET -gt 0 ] && echo "ret $RET"
