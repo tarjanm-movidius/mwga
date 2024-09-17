@@ -14,6 +14,7 @@ else
 fi
 alias ..='cd ..'
 alias ...='cd ../..'
+alias less='winpty less'
 alias py='winpty py'
 
 export PATH="$PATH:/c/lcc/bin"

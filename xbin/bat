@@ -1,3 +1,8 @@
 #!/bin/bash
 
-cmd "/C $@"
+[ -z "$1" ] && exit 1
+BATFILE="$1"
+[ -e "$BATFILE" ] && BATFILE="`realpath "$BATFILE"`"
+shift
+PATH="/c/WINDOWS/system32:/c/WINDOWS:$PATH"
+winpty $BATFILE "$@"
