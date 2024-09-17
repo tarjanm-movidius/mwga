@@ -1,0 +1,53 @@
+#!/bin/bash
+
+USAGE="Error: parameter missing. Usage: $0 [log_name] <file1.py [file2.py [...]] | directory>"
+PYLINT_PARAMS="\
+-d fixme \
+-d global-statement \
+-d raw-checker-failed \
+-d bad-inline-option \
+-d locally-disabled \
+-d file-ignored \
+-d suppressed-message \
+-d useless-suppression \
+-d use-symbolic-message-instead \
+-d use-implicit-booleaness-not-comparison-to-string \
+-d use-implicit-booleaness-not-comparison-to-zero \
+-d invalid-name \
+-d multiple-imports \
+-d multiple-statements \
+-d superfluous-parens \
+-d line-too-long \
+-d trailing-whitespace \
+-d missing-docstring \
+-d relative-beyond-top-level \
+-d import-outside-toplevel \
+"
+
+[ -z "$1" ] && echo "$USAGE" 1>&2 && exit 1
+if [ -e "$1" ]; then
+	[ $# -gt 1 -o "$1" == "." ] && LOGNAME="pylint-$(date +%Y%m%d-%H%M%S)" || LOGNAME="pylint-$(basename $1 | sed 's/\.py$//')"
+else
+	grep -q '\.py$' <<< $1 && echo "Error: file '$1' not found" 1>&2 && exit 2
+	LOGNAME="$1"
+	shift
+	[ -z "$1" ] && echo "$USAGE" 1>&2 && exit 1
+fi
+if [ -e "${LOGNAME}.log" -o -e "${LOGNAME}_err.log" ]; then
+	read -t 5 -p "'${LOGNAME}.log' and/or '${LOGNAME}_err.log' exist, press Ctrl+C to abort or any key to continue" i
+	echo ""
+fi
+
+[ -d "$1" ] && set `find "$1" -type f -name '*.py' | grep -v '~/'`
+
+echo "# pylint $PYLINT_PARAMS" > "${LOGNAME}.log"
+echo "# pylint $PYLINT_PARAMS | grep <errors>" | tee "${LOGNAME}_err.log"
+( git log -1
+echo ""
+git status -uno ) |& tee -a "${LOGNAME}.log" >> "${LOGNAME}_err.log"
+
+pylint --rcfile /dev/null -j 0 $PYLINT_PARAMS $@ | tee -a "${LOGNAME}.log" | \
+grep '\*\*\*\*\|[0-9]: E[0-9]' | grep -v '\(namednodes\|pysvtools\|svtools\|ipccli\|matplotlib\|prettytable\|termcolor\|numpy\).*import-error' | tee -a "${LOGNAME}_err.log" | \
+sed 's/: \(E[0-9].*\)$/: \x1b\[31m\1\x1b\[0m/'
+
+grep -q '^pylint-[0-9-]\+$' <<< $LOGNAME && echo "" 1>&2 && echo "Results written to ${LOGNAME}.log and ${LOGNAME}_err.log" 1>&2
