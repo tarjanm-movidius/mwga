@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USAGE="Error: parameter missing. Usage: $0 [log_name] <file1.py [file2.py [...]] | directory>"
+USAGE="Error: parameter missing. Usage: $0 [-x exclude_pattern [-x ep2 [...]]] [log_name] <file1.py [file2.py [...]] | directory>"
 PYLINT_PARAMS="\
 -d fixme \
 -d global-statement \
@@ -24,9 +24,16 @@ PYLINT_PARAMS="\
 -d import-outside-toplevel \
 "
 
+EXCL=""
+while [ "$1" == "-x" ]; do
+	shift
+	[ -z "$1" ] && echo "$USAGE" 1>&2 && exit 1
+	EXCL="$EXCL\\|$1"
+	shift
+done
 [ -z "$1" ] && echo "$USAGE" 1>&2 && exit 1
 if [ -e "$1" ]; then
-	[ $# -gt 1 -o "$1" == "." ] && LOGNAME="pylint-$(date +%Y%m%d-%H%M%S)" || LOGNAME="pylint-$(basename $1 | sed 's/\.py$//')"
+	[ $# -gt 1 -o "$1" == "." ] && LOGNAME="pylint-$(date +%Y%m%d-%H%M%S)" || LOGNAME="pylint-$(basename -s .py $1)"
 else
 	grep -q '\.py$' <<< $1 && echo "Error: file '$1' not found" 1>&2 && exit 2
 	LOGNAME="$1"
@@ -38,7 +45,7 @@ if [ -e "${LOGNAME}.log" -o -e "${LOGNAME}_err.log" ]; then
 	echo ""
 fi
 
-[ -d "$1" ] && set `find "$1" -type f -name '*.py' | grep -v '~/'`
+[ -d "$1" ] && set `find "$1" -type f -name '*.py' | grep -v '~/'"$EXCL"`
 
 echo "# pylint $PYLINT_PARAMS" > "${LOGNAME}.log"
 echo "# pylint $PYLINT_PARAMS | grep <errors>" | tee "${LOGNAME}_err.log"
