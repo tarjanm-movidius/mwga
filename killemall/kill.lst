@@ -13,6 +13,7 @@ CcmExec.exe
 ClientHealthEval.exe
 CompatTelRunner.exe
 Cortana.exe
+ctfmon.exe
 DataExchangeHost.exe
 DeviceEnroller.exe
 DiagsCap.exe

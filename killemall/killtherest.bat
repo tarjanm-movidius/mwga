@@ -14,6 +14,7 @@ taskkill /f /t /im ShellExperienceHost.exe
 taskkill /F /T /IM Microsoft.AAD.BrokerPlugin.exe
 taskkill /F /T /IM Microsoft.SharePoint.exe
 net stop wuauserv
+net stop Installservice
 
 rem sc stop ssh-agent
 rem sc config ssh-agent start=disabled

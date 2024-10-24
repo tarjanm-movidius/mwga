@@ -32,6 +32,12 @@ function kill_relentless_shit() {
 	fi
 }
 
+function kill_service_by_pid() {
+	[ -z "$1" ] && return 1
+	PID="`sc queryex $1 | sed -n 's/.*PID[: \t]\+\([0-9]\+\)[^0-9]*$/\1/p'`"
+	[ -n "$PID" -a "$PID" != "0" ] && $DBGECHO "matando s$PID" && tskill $PID //A $DBGFLAG
+}
+
 while true; do
 	[ -e "$PAUSEFILE" ] && sleep 1 && echo "pause" && continue
 	[ "$LCKFILE" -nt "$SHITLISTFILE" ] 2>/dev/null || update_shitlist
@@ -73,6 +79,7 @@ while true; do
 		net stop DoSvc 2>/dev/null
 		net stop UsoSvc 2>/dev/null
 		net stop WaaSMedicSvc 2>/dev/null
+		kill_service_by_pid TextInputManagementService
 		read -t 5
 	fi
 done
